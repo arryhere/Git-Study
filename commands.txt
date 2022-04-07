@@ -1,0 +1,16 @@
+$ git config --global user.name "Arijit"
+$ git config --global user.email "arijitdasofficial@gmail.com"
+$ git config user.name
+$ git config user.email
+$ git config --list
+(END) -> q (quit)
+
+$ git status
+$ git init
+$ git add --a / $ git add -A
+$ git commit -m "initial commit"
+$ git log
+
+$ rm -rf .git                       //force remove dir
+
+$ git clone [https://github.com/tensorflow/tensorflow.git]
