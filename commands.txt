@@ -11,8 +11,9 @@ $ git add --a / $ git add -A
 $ git commit -m "initial commit"
 $ git log
 
-$ rm -rf .git                       //force remove dir
+$ rm -rf .git                                                               //force remove dir
 
 $ git clone [https://github.com/tensorflow/tensorflow.git]
 
-$ git diff
+$ git diff                                                                  //staging <==> working
+$ git diff --staged                                                         //previous commit <==> staging
