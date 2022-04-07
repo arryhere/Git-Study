@@ -17,3 +17,5 @@ $ git clone [https://github.com/tensorflow/tensorflow.git]
 
 $ git diff                                                                  //staging <==> working
 $ git diff --staged                                                         //previous commit <==> staging
+
+$ git commit -a -m "comment"                                                //tracked files -> commit
