@@ -19,3 +19,4 @@ $ git diff                                                                  //st
 $ git diff --staged                                                         //previous commit <==> staging
 
 $ git commit -a -m "comment"                                                //tracked files -> commit
+$ git rm [file-name]                                                        //remove file -> no need to stage later(already staged)
