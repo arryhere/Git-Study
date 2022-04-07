@@ -7,7 +7,7 @@ $ git config --list
 
 $ git status
 $ git init
-$ git add --a / $ git add -A
+$ git add --a / $ git add -A / $ git add .
 $ git commit -m "initial commit"
 $ git log
 
