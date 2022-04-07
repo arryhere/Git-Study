@@ -14,3 +14,5 @@ $ git log
 $ rm -rf .git                       //force remove dir
 
 $ git clone [https://github.com/tensorflow/tensorflow.git]
+
+$ git diff
