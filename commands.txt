@@ -43,3 +43,4 @@ $ git checkout -f                                                           //re
 
 $ git remote add origin https:(url)
 $ git remote
+$ git remote -v
