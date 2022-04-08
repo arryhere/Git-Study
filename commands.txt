@@ -34,4 +34,3 @@ $ git log --pretty=full
 $ git log --since=2.days
 $ git log --pretty=format:"%h -- %an"                                       //format output
 $ git log --pretty=format:"%H -- %ae"
-
