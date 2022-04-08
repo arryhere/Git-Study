@@ -41,6 +41,7 @@ $ git log --pretty=format:"%h -- %an"                                       //fo
 $ git log --pretty=format:"%H -- %ae"
 
 $ git restore --staged [file-name]                                          //unstage a file
+$ git restore [file-name]                                                   //restore previous version of the file (previous commit version)
 $ git checkout -- [file-name]                                               //restore previous version of the file (previous commit version)
 $ git checkout -f                                                           //restore all files to previous commit
 
@@ -57,3 +58,5 @@ $ git branch                                                                //se
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 $ git config --global alias.st status                                       //set alias -- git status => git st
+
+------------------------------------------------------------------------------------------------------------------------------------------------
