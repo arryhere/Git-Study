@@ -52,8 +52,8 @@ $ git remote                                                                //re
 $ git remote -v                                                             //remote-repo details
 $ git push -u origin master                                                 //push to remote-repo
 $ git branch -M main                                                        //change branch to [---]
-$ git branch -m master main                                                 //change branch [---] to [---]
-$ git branch                                                                //see branch
+$ git branch -m master main                                                 //rename branch [---] to [---]
+$ git branch                                                                //see branches
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -62,3 +62,5 @@ $ git config --global alias.st status                                       //se
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 $ git checkout -b [name]                                                    //create new branch -> switch to it
+$ git checkout main                                                         //switch to branch
+$ git branch                                                                //see branches
