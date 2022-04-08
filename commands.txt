@@ -1,29 +1,29 @@
 
-$ git config --global init.defaultBranch main
+$ git config --global init.defaultBranch main                               //set default branch [name]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-$ git config --global user.name "Arijit"
-$ git config --global user.email "arijitdasofficial@gmail.com"
-$ git config user.name
-$ git config user.email
-$ git config --list
+$ git config --global user.name "Arijit"                                    //set name
+$ git config --global user.email "arijitdasofficial@gmail.com"              //set email
+$ git config user.name                                                      //see name
+$ git config user.email                                                     //see email
+$ git config --list                                                         //see details
 (END) -> q (quit)
 
 $ git status
-$ git init
-$ git add --a / $ git add -A / $ git add .
-$ git commit -m "initial commit"
-$ git log
+$ git init                                                                  //initialize a git
+$ git add --a / $ git add -A / $ git add .                                  //staging files
+$ git commit -m "initial commit"                                            //commit files
+$ git log                                                                   //log files
 
 $ rm -rf .git                                                               //force remove dir
 
-$ git clone [https://github.com/tensorflow/tensorflow.git] [folder-name]
+$ git clone [https://github.com/tensorflow/tensorflow.git] [folder-name]    //clone remote-repo locally
 
 $ git diff                                                                  //staging <==> working
 $ git diff --staged                                                         //previous commit <==> staging
 
-$ git commit -a -m "comment"                                                //tracked files -> commit
+$ git commit -a -m "comment"                                                //tracked files -> commit (staging included)
 
 $ git rm [file-name]                                                        //remove file -> no need to stage later(already staged)
 $ git mv [file-name] [new-file-name]                                        //rename file -> no need to stage later(already staged)
@@ -46,9 +46,14 @@ $ git checkout -f                                                           //re
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-$ git remote add origin https:(url)
-$ git remote
-$ git remote -v
-$ git push -u origin master
-$ git branch -M main
-$ git branch
+$ git remote add origin https:(url)                                         //link remote-repo to local-repo
+$ git remote                                                                //remote-repo name
+$ git remote -v                                                             //remote-repo details
+$ git push -u origin master                                                 //push to remote-repo
+$ git branch -M main                                                        //change branch to [---]
+$ git branch -m master main                                                 //change branch [---] to [---]
+$ git branch                                                                //see branch
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+$ git config --global alias.st status                                       //set alias -- git status => git st
