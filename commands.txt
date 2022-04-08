@@ -29,3 +29,9 @@ $ git log -p -3                                                             //se
 $ git log --stat                                                            //see stats of commit
 $ git log --stat -1                                                         //see stats of last [n] commits
 $ git log --pretty=oneline                                                  //see changes in one-line
+$ git log --pretty=short                                                    //see changes in shorthand
+$ git log --pretty=full
+$ git log --since=2.days
+$ git log --pretty=format:"%h -- %an"                                       //format output
+$ git log --pretty=format:"%H -- %ae"
+
