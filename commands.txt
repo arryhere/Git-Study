@@ -64,3 +64,6 @@ $ git config --global alias.st status                                       //se
 $ git checkout -b [name]                                                    //create new branch -> switch to it
 $ git checkout main                                                         //switch to branch
 $ git branch                                                                //see branches
+
+$ git branch --delete [name]                                                //delete branch local-repo
+$ git push origin --delete [name]                                           //delete branch remote-repo
