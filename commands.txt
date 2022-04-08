@@ -60,3 +60,5 @@ $ git branch                                                                //se
 $ git config --global alias.st status                                       //set alias -- git status => git st
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
+
+$ git checkout -b [name]                                                    //create new branch -> switch to it
