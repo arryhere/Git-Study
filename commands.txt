@@ -67,3 +67,5 @@ $ git branch                                                                //se
 
 $ git branch --delete [name]                                                //delete branch local-repo
 $ git push origin --delete [name]                                           //delete branch remote-repo
+
+------------------------------------------------------------------------------------------------------------------------------------------------
