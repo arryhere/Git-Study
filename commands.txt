@@ -38,3 +38,8 @@ $ git log --pretty=format:"%H -- %ae"
 $ git restore --staged [file-name]                                          //unstage a file
 $ git checkout -- [file-name]                                               //restore previous version of the file (previous commit version)
 $ git checkout -f                                                           //restore all files to previous commit
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+$ git remote add origin https:(url)
+$ git remote
