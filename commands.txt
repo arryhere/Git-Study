@@ -51,7 +51,7 @@ $ git remote add origin https:(url)                                         //li
 $ git remote                                                                //remote-repo name
 $ git remote -v                                                             //remote-repo details
 $ git push -u origin master                                                 //push to remote-repo
-$ git branch -M main                                                        //change branch to [---]
+$ git branch -M main                                                        //force rename branch to [---]
 $ git branch -m master main                                                 //rename branch [---] to [---]
 $ git branch                                                                //see branches
 
