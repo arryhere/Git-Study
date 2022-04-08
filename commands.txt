@@ -34,3 +34,7 @@ $ git log --pretty=full
 $ git log --since=2.days
 $ git log --pretty=format:"%h -- %an"                                       //format output
 $ git log --pretty=format:"%H -- %ae"
+
+$ git restore --staged [file-name]                                          //unstage a file
+$ git checkout -- [file-name]                                               //restore previous version of the file (previous commit version)
+$ git checkout -f                                                           //restore all files to previous commit
