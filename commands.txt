@@ -81,3 +81,6 @@ $ git branch --delete --remotes [remote]/[branch]                           //De
 $ git branch -dr [remote]/[branch]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
+
+$ git merge [branch]                                                        //merge [branch] to current branch
+$ git rebase [branch]                                                       //take the changes from [branch] and append them to main without a merge commit.
