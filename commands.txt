@@ -66,6 +66,7 @@ $ git checkout main                                                         //sw
 $ git branch                                                                //see local branches
 $ git branch -r                                                             //see remote branches
 $ git branch -a                                                             //remote branch + local branch
+$ git branch -av                                                             //remote branch + local branch + commits
 $ git checkout [commit_hash_code]                                           //check out a particular commit -- After moving to that code, if you want to work on it and make changes, you should make another branch with git checkout -b <new-branch-name>, otherwise, the changes will not be retained.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
