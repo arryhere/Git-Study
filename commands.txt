@@ -82,5 +82,15 @@ $ git branch -dr [remote]/[branch]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
+Cloning a repo from someone else's Github and pushing it to a repo on my Github
+[https://stackoverflow.com/questions/18200248/cloning-a-repo-from-someone-elses-github-and-pushing-it-to-a-repo-on-my-github]
+
+$ git remote set-url origin [url]                                           //change the remote-repo link
+$ git remote rename origin upstream                                         //change [origin] -> [upstream]
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
 $ git merge [branch]                                                        //merge [branch] to current branch
 $ git rebase [branch]                                                       //take the changes from [branch] and append them to main without a merge commit.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
