@@ -92,5 +92,7 @@ $ git remote rename origin upstream                                         //ch
 
 $ git merge [branch]                                                        //merge [branch] to current branch
 $ git rebase [branch]                                                       //take the changes from [branch] and append them to main without a merge commit.
+$ git branch --merged                                                       //show merged branched
+$ git branch --no-merged                                                    //show unmerged branches
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
