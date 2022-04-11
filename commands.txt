@@ -27,7 +27,7 @@ $ git commit -a -m "comment"                                                //tr
 
 $ git rm [file-name]                                                        //remove file -> no need to stage later(already staged)
 $ git mv [file-name] [new-file-name]                                        //rename file -> no need to stage later(already staged)
-$ git rm --cached [file-name]                                               //explicitely mentioning .gitignore later to stop tracking the file
+$ git rm --cached [file-name]                                               //unstage a file -- explicitely mentioning .gitignore later to stop tracking the file
 
 $ git log -p                                                                //see changes in commit
 $ git log -p -3                                                             //see changes in last [n] commits
