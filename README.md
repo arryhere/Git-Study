@@ -1,2 +1,2 @@
 # Git-Study
-free to use
+free to use :)
