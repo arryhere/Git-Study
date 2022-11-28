@@ -51,7 +51,7 @@ $ git checkout -f                                                           //re
 $ git remote add origin https:(url)                                         //link remote-repo to local-repo
 $ git remote                                                                //remote-repo name
 $ git remote -v                                                             //remote-repo details
-$ git push -u origin master                                                 //push to remote-repo
+$ git push -u origin master                                                 //push to remote-repo and set default upstream
 $ git branch -M main                                                        //force rename branch to [---]
 $ git branch -m master main                                                 //rename branch [---] to [---]
 $ git branch                                                                //see branches
